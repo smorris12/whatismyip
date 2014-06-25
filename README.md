@@ -11,10 +11,15 @@ At the top of the whatismyip.py file you'll find the following:
 
 # Constants
 json_site = "http://ip-api.com/json"
+
 save_ipaddress_location = '/somewhere'
+
 myemail = 'your_email@somewhere.here'
+
 myserver = 'remote_host or localhost'
+
 myreceiver = 'destination@somewhere.else'
+
 mysubject = 'IP address changed'
 
 Change each parameter to what works for your setup. This should work with almost any json ip reporting tool out there. Should you use somehting other than what I have here, don't forget to change the field name in the JSON call within the code.
